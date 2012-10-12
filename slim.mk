@@ -16,12 +16,16 @@ $(call inherit-product, vendor/slim/config/common_nexus.mk)
 PRODUCT_COPY_FILES +=  \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.camera.res=5MP
+
 #copy 00check
 PRODUCT_COPY_FILES += \
 	vendor/slim/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.camera.res=5MP
+#copy vold.fstab
+PRODUCT_COPY_FILES += \
+	device/samsung/toro/vold.fstab:system/etc/vold.fstab
 
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
