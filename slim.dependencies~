@@ -18,11 +18,5 @@
         "repository":   "SlimRoms/proprietary_vendor_broadcom",
         "target_path":  "vendor/broadcom",
         "branch":     "jb"
-    },
-    {
-        "repository":   "SlimRoms/device_samsung_tuna",
-        "target_path":  "device/samsung/tuna",
-        "branch":     "jb"
     }
-
 ]
