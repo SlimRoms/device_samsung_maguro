@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 #copy vold.fstab
 PRODUCT_COPY_FILES += \
-	device/samsung/toro/vold.fstab:system/etc/vold.fstab
+	device/samsung/maguro/vold.fstab:system/etc/vold.fstab
 
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
