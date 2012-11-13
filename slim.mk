@@ -10,6 +10,9 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
+# Inherit torch settings
+$(call inherit-product, vendor/slim/config/common_ledflash.mk)
+
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_nexus.mk)
 
