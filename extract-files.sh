@@ -24,6 +24,7 @@ mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 adb pull /system/bin/fRom ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fRom
 chmod 755 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fRom
 adb pull /system/lib/libsecril-client.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libsecril-client.so
+adb pull /system/lib/libdrmdecrypt.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libdrmdecrypt.so
 adb pull /system/vendor/bin/pvrsrvctl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/pvrsrvctl
 chmod 755 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/pvrsrvctl
 adb pull /system/vendor/etc/sirfgps.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sirfgps.conf
@@ -71,6 +72,7 @@ PRODUCT_COPY_FILES := \\
 PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/fRom:system/bin/fRom \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libsecril-client.so:system/lib/libsecril-client.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/pvrsrvctl:system/vendor/bin/pvrsrvctl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \\
