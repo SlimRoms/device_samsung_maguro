@@ -33,8 +33,8 @@ PRODUCT_COPY_FILES += \
 # Release name
 PRODUCT_RELEASE_NAME := maguro
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.2.1 JOP40D eng.ar.20121128.230418 release-keys"
-PRIVATE_BUILD_DESC="yakju-user 4.2.1 JOP40D 230418 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=takju BUILD_FINGERPRINT="google/takju/maguro:4.2.1 JOP40D eng.ar.20121128.517167 release-keys"
+PRIVATE_BUILD_DESC="takju-user 4.2.1 JOP40D 517167 release-keys"
 
 PRODUCT_NAME := slim_maguro
 PRODUCT_DEVICE := maguro
