@@ -14,7 +14,6 @@
 
 # Default values, possibly overridden by BoardConfigVendor.mk
 TARGET_BOARD_INFO_FILE := device/samsung/maguro/board-info.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
 
 # Use the non-open-source part, if present
 -include vendor/samsung/maguro/BoardConfigVendor.mk

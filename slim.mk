@@ -25,8 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Release name
 PRODUCT_RELEASE_NAME := maguro
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.2.2/JDQ39/573038:user/release-keys"
-PRIVATE_BUILD_DESC="yakju-user 4.2.2 JDQ39 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.3/JSS15J/737497:user/release-keys"
+PRIVATE_BUILD_DESC="yakju-user 4.3 JSS15J 737497 release-keys"
 
 PRODUCT_NAME := slim_maguro
 PRODUCT_DEVICE := maguro
