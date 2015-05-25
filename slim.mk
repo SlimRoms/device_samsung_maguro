@@ -1,6 +1,7 @@
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
+TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/slim/config/gsm.mk)
