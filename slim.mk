@@ -4,9 +4,6 @@ TARGET_SCREEN_WIDTH := 720
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/slim/config/gsm.mk)
-
-# Inherit some common stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
